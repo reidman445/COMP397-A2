@@ -1,0 +1,16 @@
+#pragma once
+#ifndef __ENEMY_MOVEMENT_TYPE__
+#define __ENEMY_MOVEMENT_TYPE__
+enum EnemyMovementType {
+	NO_MOVEMENT = -1,
+	SINE,
+	COSINE,
+	FOWARD,
+	BACKWARDS,
+	BACK_AND_FORTH,
+	CIRCLE,
+	UP_DIAGONAL,
+	DOWN_DIAGONAL,
+	NUM_OF_MOVEMENT_TYPES
+};
+#endif /* defined (__GAME_OBJECT_TYPE__) */
